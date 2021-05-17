@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <unordered_map>
+#include "vendor/glm/glm.hpp"
 
 struct ShaderProgramSource
 {
@@ -24,6 +25,7 @@ public:
 
 	// set uniforms
 	void SetUniform1i(const std::string& name, int value);
+	void SetUniformMat4f(const std::string& name, const  glm::mat4& matrix);
 	void SetUniform4f(const std::string& name, float v0, float v1, float v2, float v3);
 private:
 	ShaderProgramSource ParseShader(const std::string& filepath);

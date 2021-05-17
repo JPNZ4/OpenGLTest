@@ -1,8 +1,15 @@
 f:\repos\opengl\opengl\opengl\debug\vc142.pdb
 f:\repos\opengl\opengl\opengl\debug\vc142.idb
+f:\repos\opengl\opengl\opengl\debug\vertexbuffer.obj
+f:\repos\opengl\opengl\opengl\debug\vertexarray.obj
+f:\repos\opengl\opengl\opengl\debug\stbd_image.obj
+f:\repos\opengl\opengl\opengl\debug\texture.obj
+f:\repos\opengl\opengl\opengl\debug\shader.obj
+f:\repos\opengl\opengl\opengl\debug\renderer.obj
+f:\repos\opengl\opengl\opengl\debug\indexbuffer.obj
 f:\repos\opengl\opengl\opengl\debug\application.obj
-f:\repos\opengl\opengl\debug\opengl.exe
 f:\repos\opengl\opengl\debug\opengl.ilk
+f:\repos\opengl\opengl\debug\opengl.exe
 f:\repos\opengl\opengl\debug\opengl.pdb
 f:\repos\opengl\opengl\opengl\debug\opengl.tlog\cl.command.1.tlog
 f:\repos\opengl\opengl\opengl\debug\opengl.tlog\cl.read.1.tlog
