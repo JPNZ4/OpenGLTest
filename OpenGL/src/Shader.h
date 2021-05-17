@@ -14,7 +14,7 @@ class Shader
 private:
 	std::string m_Filepath;
 	unsigned int m_RendererID;
-	std::unordered_map<std::string, unsigned int> m_UniformLocationCahce;
+	std::unordered_map<std::string, int> m_UniformLocationCahce;
 public:
 	Shader(const std::string& filepath);
 	~Shader();
@@ -23,6 +23,7 @@ public:
 	void Unbind() const;
 
 	// set uniforms
+	void SetUniform1i(const std::string& name, int value);
 	void SetUniform4f(const std::string& name, float v0, float v1, float v2, float v3);
 private:
 	ShaderProgramSource ParseShader(const std::string& filepath);
